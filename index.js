@@ -22,10 +22,12 @@ async function main() {
 
         const apiKey = process.env.API_KEY;
 
-        console.log(colors.cyan('==============================================================='));
-        console.log(colors.cyan('=                GET ALL BALANCE WITH ADDRESS                 ='));
-        console.log(colors.cyan('=                   🌟  Create by Lubi  🌟                    ='));
-        console.log(colors.cyan('==============================================================='));
+        console.log('=========================================='.brightWhite);
+        console.log('|          ✨ Check Balance Bot ✨       |'.brightWhite.bold);
+        console.log('=========================================='.brightWhite);
+        console.log('|            Created by Lubitzy          |'.brightWhite.bold);
+        console.log('|       Telegram: https://t.me/lubiqt    |'.brightWhite.bold);
+        console.log('=========================================='.brightWhite);
 
         // Prompt user for address
         const address = await promptUser('Enter your address ETH: ');

@@ -14,7 +14,7 @@
     "etherium",
     "moralis"
   ],
-  "author": "Lubi",
+  "author": "Gustio",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.7",
